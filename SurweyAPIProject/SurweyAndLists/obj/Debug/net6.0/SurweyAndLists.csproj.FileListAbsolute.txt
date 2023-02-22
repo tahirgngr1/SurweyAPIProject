@@ -1,0 +1,12 @@
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\bin\Debug\net6.0\SurweyAndLists.deps.json
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\bin\Debug\net6.0\SurweyAndLists.dll
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\bin\Debug\net6.0\SurweyAndLists.pdb
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.AssemblyInfo.cs
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.dll
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\refint\SurweyAndLists.dll
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\SurweyAndLists.pdb
+C:\Users\asus\source\repos\SurweyAPIProject\SurweyAndLists\obj\Debug\net6.0\ref\SurweyAndLists.dll
