@@ -1,4 +1,5 @@
 ﻿using DataAccess;
+using DataAccess.Implements;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SurweyAndLists;
@@ -8,16 +9,19 @@ namespace SurweyAPI.Controllers
     public class SurweyController : Controller
     {
         private readonly SurweyDbContext _context;
-        public SurweyController(SurweyDbContext context)
+        private readonly ISurweyRepository repository;
+        public SurweyController(ISurweyRepository repository) 
         {
-            _context = context;
+            this.repository = repository;
+            _context = new SurweyDbContext();
         }
-        [HttpGet]
-        public async Task<ActionResult<List<Surwey>>> GetSurweys()
+        [HttpGet("/findSurweys")]
+        public List<Surwey> GetSurweys()
         {
-            return await _context.Surweys.ToListAsync();
+           return repository.GetAll();
+           
         }
-        [HttpPost]
+        [HttpPost("/saveSurweys")]
         public async Task<ActionResult<Surwey>> PostSurwey(Surwey surwey)
         {
             _context.Surweys.Add(surwey);
